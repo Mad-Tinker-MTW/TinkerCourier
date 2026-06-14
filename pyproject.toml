@@ -1,0 +1,23 @@
+[project]
+name = "tinkercourier"
+version = "0.1.0"
+description = "Git-as-courier daemon: polls a private repo for dispatch payloads, delivers via local keyring-authenticated transports, commits delivery receipts."
+requires-python = ">=3.12"
+authors = [{ name = "Francisco De La Paz", email = "mad.tinker@madtinkersworkshop.com" }]
+dependencies = [
+    "keyring>=25.0",
+    "tinkerwire",
+]
+
+[project.scripts]
+tinkercourier = "tinkercourier.__main__:main"
+
+[tool.uv.sources]
+tinkerwire = { path = "../TinkerWire", editable = true }
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/tinkercourier"]
