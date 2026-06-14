@@ -10,6 +10,7 @@ pre-build
 - Project scaffolded
 - Full documentation suite created
 - PMP Charter and WBS written
+- Local git initialized, pushed to GitHub (private, Mad-Tinker-MTW/TinkerCourier)
 
 ## What Needs Work
 - Everything. Not yet implemented.

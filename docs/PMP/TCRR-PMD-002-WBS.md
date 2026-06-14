@@ -84,3 +84,4 @@ Project Manager: Francisco De La Paz
 | Date | Role | Hours | Notes |
 |---|---|---|---|
 | 2026-06-14 | Project Manager | 2.0 | Scaffold session: intake, structure, docs, PMP, registry |
+| 2026-06-14 | Deployment Engineer | 0.25 | Local git init, GitHub repo Mad-Tinker-MTW/TinkerCourier created and pushed to origin/main |
